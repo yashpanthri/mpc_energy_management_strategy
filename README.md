@@ -51,4 +51,5 @@ Open MATLAB **with the repository root as the current folder**.
 ### 2) Add Project to Path
 Run:
 ```matlab
-addpath(genpath(pwd))
+uddscycle_and_parameters_simulated_motor_map
+Vehicle_model_mpc_updated.slx 
