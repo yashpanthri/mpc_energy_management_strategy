@@ -29,13 +29,13 @@ Simulation time step: **1 s**
 
 ## Repository Contents 
 Key files:
-- `Vehicle_model_mpc_updated.slx` – **Final model used for results**
-- `Vehicle_model_old_mpc.slx` – Older MPC formulation (legacy)
-- `Vehicle_model_without_controller.slx` – Plant-only model
+- `Vehicle_model_mpc_updated.slx` – Final MPC model used for results
+- `Vehicle_model_old_mpc.slx` – Older MPC formulation
+- `Vehicle_model_without_controller.slx` – Plant model with 50-50 controller
 - `FC_SI63_emis.m` – Engine model (ADVISOR based)
 - `MC_PM49.m` – Motor model (ADVISOR based)
-- `report.pdf` – Final report (results + conclusions)
-- `plots/` – Result figures used below
+- `report.pdf` – Concise report
+- `plots` – Result plots included under this folder
 
 ---
 
