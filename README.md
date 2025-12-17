@@ -9,7 +9,7 @@ The project compares a baseline **50–50 rule-based controller** with an
 **updated Linear Time-Invariant Model Predictive Control (MPC)** strategy.
 
 The final results, discussion, conclusions, and future work are documented
-in the included project report.
+in the included report.
 
 ---
 
@@ -27,19 +27,15 @@ Simulation time step: **1 s**
 
 ---
 
-## Repository Contents (As-Is)
-
-This repository intentionally preserves the original folder structure to
-avoid MATLAB/Simulink path issues.
-
+## Repository Contents 
 Key files:
 - `Vehicle_model_mpc_updated.slx` – **Final model used for results**
 - `Vehicle_model_old_mpc.slx` – Older MPC formulation (legacy)
 - `Vehicle_model_without_controller.slx` – Plant-only model
 - `FC_SI63_emis.m` – Engine model (ADVISOR based)
 - `MC_PM49.m` – Motor model (ADVISOR based)
-- `AENG 562_Project Report.pdf` – Final report (results + conclusions)
-- `pics/` – Result figures used below
+- `report.pdf` – Final report (results + conclusions)
+- `plots/` – Result figures used below
 
 ---
 
@@ -53,3 +49,13 @@ Run:
 ```matlab
 uddscycle_and_parameters_simulated_motor_map
 Vehicle_model_mpc_updated.slx 
+```
+Details of mathematical modelling can be found in:
+```
+report.pdf
+old_control_math.pdf
+```
+Drive Cycle is from UDDS:
+```
+uddscol.txt
+```
