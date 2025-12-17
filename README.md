@@ -10,6 +10,7 @@ The project compares a baseline **50–50 rule-based controller** with an
 
 The final results, discussion, conclusions, and future work are documented
 in the included report.
+<img width="1851" height="839" alt="image" src="https://github.com/user-attachments/assets/1ac79aa1-0d50-4194-a490-e221a6146675" />
 
 ---
 
